@@ -17,7 +17,7 @@ public class WebDriverUtil {
      * returns webdriver
      */
     public static WebDriver getDriver(String browserType) {
-        if (browserType.equalsIgnoreCase("chrome")) {
+        if (browserType.equalsIgnoreCase("chrome".toLowerCase())) {
             return new ChromeDriver();
         } else if (browserType.equalsIgnoreCase("firefox")) {
             return new FirefoxDriver();
