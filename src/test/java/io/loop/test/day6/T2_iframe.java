@@ -49,11 +49,12 @@ public class T2_iframe extends TestBase {
     }
 
     @Test
-    public void nestedFrame() {
+    public void nestedFrame(){
         driver.get("https://loopcamp.vercel.app/nested-frames.html");
         List<WebElement> iframes;
-        iframes = driver.findElements(By.xpath("//iframe"));
-        System.out.println("iframes.size() = " + iframes.size());//hay 5 pero se imprimen 2, porque no puede ir al interior de los otros.
+        iframes = driver.findElements(By.xpath("//frame"));//puedo ahcerlo con frame and iframe
+        System.out.println("iframes.size() = " + iframes.size());
+    //hay 5 pero se imprimen 2, porque no puede ir al interior de los otros.
 
     }
 }

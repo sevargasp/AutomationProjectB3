@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/Task/task1/task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/Task/task2/task2_mercadoLibre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +69,7 @@
     "TestNG.T1_testNG_intro.test1.executor": "Run",
     "TestNG.T1_testNG_intro.test2.executor": "Run",
     "TestNG.T2_iframe.iframeTest.executor": "Run",
+    "TestNG.T2_iframe.nestedFrame.executor": "Run",
     "TestNG.T2_testNG_with_selenium.docuportTitle.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T2_testNG_with_selenium.googleTitle.executor": "Run",
@@ -102,7 +93,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.T2_iframe.iframeTest">
+  <component name="RunManager" selected="TestNG.T2_iframe.nestedFrame">
     <configuration name="T00_checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T00_checkbox" />
       <module name="AutomationProjectB3" />
@@ -134,24 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_alerts.promptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
-      <option name="METHOD_NAME" value="promptAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T2_iframe.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
@@ -163,6 +136,24 @@
       <option name="PACKAGE_NAME" value="io.loop.test.day6" />
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
       <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_iframe.nestedFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
+      <option name="METHOD_NAME" value="nestedFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T2_iframe.nestedFrame" />
         <item itemvalue="TestNG.T2_iframe.iframeTest" />
         <item itemvalue="TestNG.T1_alerts.confirmationAlert" />
         <item itemvalue="TestNG.T5_multi_dropdown.multiSelect" />
         <item itemvalue="Application.T00_checkbox" />
-        <item itemvalue="TestNG.T1_alerts.promptAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +226,7 @@
       <workItem from="1719754322914" duration="9876000" />
       <workItem from="1719798234229" duration="71000" />
       <workItem from="1720125305156" duration="3682000" />
-      <workItem from="1720129989600" duration="6599000" />
+      <workItem from="1720129989600" duration="11328000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
