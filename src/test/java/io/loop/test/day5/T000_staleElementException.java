@@ -49,7 +49,12 @@ addButton.click();
             System.out.println("Element is not displayed");
         }
 
-
+// Stale Element Reference Exception
+//
+//There are 2 situations that we can get this exception:
+//1- navigation (handle with reassign(relocate) the element)
+//2- when element deleted from both html and page (handle with try catch)
+//This practice is about when navigation refresh happens sometime you can receive this exception and we should know how to handle it with relocating
 
 
 
