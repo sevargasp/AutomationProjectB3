@@ -28,7 +28,7 @@ public class T4_dropdown_options {
     WebDriver driver;
 
     @BeforeMethod
-    public void setUpMethod(){
+    public void setUpMethod() {
         driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/select-menu");
@@ -36,19 +36,20 @@ public class T4_dropdown_options {
     }
 
     //@AfterMethod
-    public void tearDownMethod(){
+    public void tearDownMethod() {
         driver.close();
     }
 
     @Test
-    public void colorTest(){//formas de select in selenium, solo 3.
+    public void colorTest() {//formas de select in selenium, solo 3.
         Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='oldSelectMenu']")));
+        //1
         dropdown.selectByIndex(3);//puedo escoger por indice o por string
         Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "Yellow");
-
+        //2
         dropdown.selectByValue("red");
         Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "Red");
-
+        //3
         dropdown.selectByVisibleText("White");
         Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "White");
     }

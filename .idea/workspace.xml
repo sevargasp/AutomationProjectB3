@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day4/T1_findElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T00_checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T0_radioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T1_testNG_intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T2_testNG_with_selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T3_simple_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/Task/task1/task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/Task/task2/task2_mercadoLibre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T000_staleElementException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T4_dropdown_options.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,58 +43,66 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChromeOptionsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T000_staleElementException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T00_checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T00_css_isDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T0_forget_pasword.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T0_radioButton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_findElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_locators_getText.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_getText_getAttribute.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_getAttribute_css.executor&quot;: &quot;Run&quot;,
-    &quot;Application.task1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.task2_etsy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.task2_mercadoLibre.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.AutomationProjectB3 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.T1_testNG_intro (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T1_testNG_intro (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T1_testNG_intro (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T1_testNG_intro.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T1_testNG_intro.test1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T1_testNG_intro.test2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T2_testNG_with_selenium.docuportTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T2_testNG_with_selenium.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T2_testNG_with_selenium.googleTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T3_simple_dropdown.dropDownTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T3_simple_dropdown.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T4_dropdown_options.colorTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Debug&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sevar/IdeaProjects/AutomationProjectB3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AllLocatorsPractice.executor": "Run",
+    "Application.ChromeOptionsExample.executor": "Run",
+    "Application.GoogleSearch.executor": "Run",
+    "Application.Locators.executor": "Run",
+    "Application.NavigateToAmazon.executor": "Run",
+    "Application.SeleniumTest.executor": "Run",
+    "Application.T000_staleElementException.executor": "Run",
+    "Application.T000_xpath_getText.executor": "Run",
+    "Application.T00_checkbox.executor": "Run",
+    "Application.T00_css_isDisplayed.executor": "Run",
+    "Application.T0_forget_pasword.executor": "Run",
+    "Application.T0_radioButton.executor": "Run",
+    "Application.T1_findElements.executor": "Run",
+    "Application.T1_locators_getText.executor": "Run",
+    "Application.T2_getText_getAttribute.executor": "Run",
+    "Application.T3_getAttribute_css.executor": "Run",
+    "Application.task1.executor": "Run",
+    "Application.task2_etsy.executor": "Run",
+    "Application.task2_mercadoLibre.executor": "Run",
+    "Maven.AutomationProjectB3 [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.T1_alerts.confirmationAlert.executor": "Run",
+    "TestNG.T1_alerts.executor": "Run",
+    "TestNG.T1_alerts.informationAlert.executor": "Run",
+    "TestNG.T1_alerts.promptAlert.executor": "Run",
+    "TestNG.T1_testNG_intro (1).executor": "Run",
+    "TestNG.T1_testNG_intro (2).executor": "Run",
+    "TestNG.T1_testNG_intro (3).executor": "Run",
+    "TestNG.T1_testNG_intro.executor": "Run",
+    "TestNG.T1_testNG_intro.test1.executor": "Run",
+    "TestNG.T1_testNG_intro.test2.executor": "Run",
+    "TestNG.T2_iframe.iframeTest.executor": "Run",
+    "TestNG.T2_testNG_with_selenium.docuportTitle.executor": "Run",
+    "TestNG.T2_testNG_with_selenium.executor": "Run",
+    "TestNG.T2_testNG_with_selenium.googleTitle.executor": "Run",
+    "TestNG.T3_simple_dropdown.dropDownTest.executor": "Run",
+    "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T4_dropdown_options.colorTest.executor": "Run",
+    "TestNG.T4_dropdown_options.executor": "Debug",
+    "TestNG.T5_multi_dropdown.executor": "Run",
+    "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
+    "git-widget-placeholder": "day__6",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sevar/IdeaProjects/AutomationProjectB3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.T00_checkbox">
+}]]></component>
+  <component name="RunManager" selected="TestNG.T2_iframe.iframeTest">
     <configuration name="T00_checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T00_checkbox" />
       <module name="AutomationProjectB3" />
@@ -110,34 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_simple_dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_alerts.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_simple_dropdown.dropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T3_simple_dropdown" />
-      <option name="METHOD_NAME" value="dropDownTest" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
+      <option name="METHOD_NAME" value="confirmationAlert" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,24 +134,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_dropdown_options" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_alerts.promptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day5.*" />
+          <option name="PATTERN" value="io.loop.test.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T1_alerts" />
+      <option name="METHOD_NAME" value="promptAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_dropdown_options.colorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_iframe.iframeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day6" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day6.T2_iframe" />
+      <option name="METHOD_NAME" value="iframeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T5_multi_dropdown.multiSelect" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +179,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.loop.test.day5" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T4_dropdown_options" />
-      <option name="METHOD_NAME" value="colorTest" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T5_multi_dropdown" />
+      <option name="METHOD_NAME" value="multiSelect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T2_iframe.iframeTest" />
+        <item itemvalue="TestNG.T1_alerts.confirmationAlert" />
+        <item itemvalue="TestNG.T5_multi_dropdown.multiSelect" />
         <item itemvalue="Application.T00_checkbox" />
-        <item itemvalue="TestNG.T4_dropdown_options.colorTest" />
-        <item itemvalue="TestNG.T4_dropdown_options" />
-        <item itemvalue="TestNG.T3_simple_dropdown" />
-        <item itemvalue="TestNG.T3_simple_dropdown.dropDownTest" />
+        <item itemvalue="TestNG.T1_alerts.promptAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +232,10 @@
       <workItem from="1719358445161" duration="6000" />
       <workItem from="1719476312834" duration="5127000" />
       <workItem from="1719529508524" duration="11000" />
+      <workItem from="1719754322914" duration="9876000" />
+      <workItem from="1719798234229" duration="71000" />
+      <workItem from="1720125305156" duration="3682000" />
+      <workItem from="1720129989600" duration="6599000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -258,5 +270,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
