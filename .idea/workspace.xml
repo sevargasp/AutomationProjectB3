@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_webTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_singleton_pattern_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,7 @@
     &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
     &quot;Application.T00_checkbox.executor&quot;: &quot;Run&quot;,
     &quot;Application.T00_css_isDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T00_test_config_reader.executor&quot;: &quot;Debug&quot;,
     &quot;Application.T0_forget_pasword.executor&quot;: &quot;Run&quot;,
     &quot;Application.T0_radioButton.executor&quot;: &quot;Run&quot;,
     &quot;Application.T1_findElements.executor&quot;: &quot;Run&quot;,
@@ -75,14 +79,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.T000_singleton_practice.practice.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T00_login_docuport.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T00_login_docuport.test_login_logout_docuport.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T0_iframe_practice.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T0_iframe_practice.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_pizza_order.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.informationAlert.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.promptAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_google_search.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_google_search.google_search.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro (1).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro (2).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro (3).executor&quot;: &quot;Run&quot;,
@@ -94,12 +102,15 @@
     &quot;TestNG.T1_window.test_window_handle.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_iframe.iframeTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_iframe.nestedFrame.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_java_faker.java_faker.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_testNG_with_selenium.docuportTitle.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_testNG_with_selenium.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_testNG_with_selenium.googleTitle.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_window.windowHandleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T3_simple_dropdown.dropDownTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T3_simple_dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_upload.upload_file.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T3_webTables.test_webTables.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T4_dropdown_options.colorTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Debug&quot;,
@@ -124,18 +135,31 @@
       <recent name="io.loop.test.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T3_webTables.test_webTables">
-    <configuration name="T0_iframe_practice.left" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T3_upload.upload_file">
+    <configuration name="T00_test_config_reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T00_test_config_reader" />
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T0_iframe_practice" />
-      <option name="METHOD_NAME" value="left" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T000_singleton_practice.practice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T000_singleton_practice" />
+      <option name="METHOD_NAME" value="practice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,16 +167,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_window" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_java_faker.java_faker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T1_window" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T2_java_faker" />
+      <option name="METHOD_NAME" value="java_faker" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3_upload" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -160,53 +202,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_window.selenium4_window" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T3_upload.upload_file" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T1_window" />
-      <option name="METHOD_NAME" value="selenium4_window" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T1_window.test_window_handle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T1_window" />
-      <option name="METHOD_NAME" value="test_window_handle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_webTables.test_webTables" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_webTables" />
-      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day8" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day8.T3_upload" />
+      <option name="METHOD_NAME" value="upload_file" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -216,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T3_webTables.test_webTables" />
-        <item itemvalue="TestNG.T1_window.selenium4_window" />
-        <item itemvalue="TestNG.T1_window.test_window_handle" />
-        <item itemvalue="TestNG.T1_window" />
-        <item itemvalue="TestNG.T0_iframe_practice.left" />
+        <item itemvalue="TestNG.T3_upload.upload_file" />
+        <item itemvalue="TestNG.T000_singleton_practice.practice" />
+        <item itemvalue="Application.T00_test_config_reader" />
+        <item itemvalue="TestNG.T2_java_faker.java_faker" />
+        <item itemvalue="TestNG.T3_upload" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +275,10 @@
       <workItem from="1720602132384" duration="14573000" />
       <workItem from="1720676002790" duration="484000" />
       <workItem from="1720676500657" duration="4657000" />
+      <workItem from="1720743206892" duration="5257000" />
+      <workItem from="1720760106078" duration="5660000" />
+      <workItem from="1721204963569" duration="11005000" />
+      <workItem from="1721220960439" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -311,6 +321,15 @@
           <properties class="java.net.SocketException" package="java.net" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java</url>
+          <line>7</line>
+          <properties class="io.loop.test.day8.T000_singleton_practice" method="practice">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
