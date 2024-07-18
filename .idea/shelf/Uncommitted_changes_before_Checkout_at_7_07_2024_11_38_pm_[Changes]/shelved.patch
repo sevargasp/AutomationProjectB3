@@ -1,0 +1,171 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2ed55f54-188d-4d98-b7e0-742fe4141ee5\" name=\"Changes\" comment=\"My first commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar!/org/openqa/selenium/WebDriver.class\" root0=\"SKIP_INSPECTION\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2hKiNcYY5Lk9zdKBvq3HRbcUAe8\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.AllLocatorsPractice.executor\": \"Run\",\r\n    \"Application.ChromeOptionsExample.executor\": \"Run\",\r\n    \"Application.GoogleSearch.executor\": \"Run\",\r\n    \"Application.Locators.executor\": \"Run\",\r\n    \"Application.NavigateToAmazon.executor\": \"Run\",\r\n    \"Application.SeleniumTest.executor\": \"Run\",\r\n    \"Application.T000_staleElementException.executor\": \"Run\",\r\n    \"Application.T000_xpath_getText.executor\": \"Run\",\r\n    \"Application.T00_checkbox.executor\": \"Run\",\r\n    \"Application.T00_css_isDisplayed.executor\": \"Run\",\r\n    \"Application.T0_forget_pasword.executor\": \"Run\",\r\n    \"Application.T0_radioButton.executor\": \"Run\",\r\n    \"Application.T1_findElements.executor\": \"Run\",\r\n    \"Application.T1_locators_getText.executor\": \"Run\",\r\n    \"Application.T2_getText_getAttribute.executor\": \"Run\",\r\n    \"Application.T3_getAttribute_css.executor\": \"Run\",\r\n    \"Application.task1.executor\": \"Run\",\r\n    \"Application.task2_etsy.executor\": \"Run\",\r\n    \"Application.task2_mercadoLibre.executor\": \"Run\",\r\n    \"Maven.AutomationProjectB3 [clean].executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"TestNG.T1_alerts.confirmationAlert.executor\": \"Run\",\r\n    \"TestNG.T1_alerts.executor\": \"Run\",\r\n    \"TestNG.T1_alerts.informationAlert.executor\": \"Run\",\r\n    \"TestNG.T1_alerts.promptAlert.executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro (1).executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro (2).executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro (3).executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro.executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro.test1.executor\": \"Run\",\r\n    \"TestNG.T1_testNG_intro.test2.executor\": \"Run\",\r\n    \"TestNG.T2_iframe.iframeTest.executor\": \"Run\",\r\n    \"TestNG.T2_iframe.nestedFrame.executor\": \"Run\",\r\n    \"TestNG.T2_testNG_with_selenium.docuportTitle.executor\": \"Run\",\r\n    \"TestNG.T2_testNG_with_selenium.executor\": \"Run\",\r\n    \"TestNG.T2_testNG_with_selenium.googleTitle.executor\": \"Run\",\r\n    \"TestNG.T3_simple_dropdown.dropDownTest.executor\": \"Run\",\r\n    \"TestNG.T3_simple_dropdown.executor\": \"Run\",\r\n    \"TestNG.T4_dropdown_options.colorTest.executor\": \"Run\",\r\n    \"TestNG.T4_dropdown_options.executor\": \"Debug\",\r\n    \"TestNG.T5_multi_dropdown.executor\": \"Run\",\r\n    \"TestNG.T5_multi_dropdown.multiSelect.executor\": \"Run\",\r\n    \"git-widget-placeholder\": \"day__6\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/sevar/IdeaProjects/AutomationProjectB3\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"TestNG.T2_iframe.nestedFrame\">\r\n    <configuration name=\"T00_checkbox\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.loop.test.day5.T00_checkbox\" />\r\n      <module name=\"AutomationProjectB3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.loop.test.day5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"T1_alerts.confirmationAlert\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AutomationProjectB3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.loop.test.day6.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"io.loop.test.day6\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.loop.test.day6.T1_alerts\" />\r\n      <option name=\"METHOD_NAME\" value=\"confirmationAlert\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"T2_iframe.iframeTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AutomationProjectB3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.loop.test.day6.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"io.loop.test.day6\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.loop.test.day6.T2_iframe\" />\r\n      <option name=\"METHOD_NAME\" value=\"iframeTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"T2_iframe.nestedFrame\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AutomationProjectB3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.loop.test.day6.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"io.loop.test.day6\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.loop.test.day6.T2_iframe\" />\r\n      <option name=\"METHOD_NAME\" value=\"nestedFrame\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"T5_multi_dropdown.multiSelect\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AutomationProjectB3\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"io.loop.test.day5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"io.loop.test.day5\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"io.loop.test.day5.T5_multi_dropdown\" />\r\n      <option name=\"METHOD_NAME\" value=\"multiSelect\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.T2_iframe.nestedFrame\" />\r\n        <item itemvalue=\"TestNG.T2_iframe.iframeTest\" />\r\n        <item itemvalue=\"TestNG.T1_alerts.confirmationAlert\" />\r\n        <item itemvalue=\"TestNG.T5_multi_dropdown.multiSelect\" />\r\n        <item itemvalue=\"Application.T00_checkbox\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-22-openjdk-22-4caba194b151-f504ca98\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2ed55f54-188d-4d98-b7e0-742fe4141ee5\" name=\"Changes\" comment=\"\" />\r\n      <created>1717349136126</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1717349136126</updated>\r\n      <workItem from=\"1718060261402\" duration=\"13000\" />\r\n      <workItem from=\"1718155843897\" duration=\"7278000\" />\r\n      <workItem from=\"1718218209284\" duration=\"18000\" />\r\n      <workItem from=\"1718231236211\" duration=\"964000\" />\r\n      <workItem from=\"1718545006217\" duration=\"13367000\" />\r\n      <workItem from=\"1718868768659\" duration=\"13249000\" />\r\n      <workItem from=\"1718945027164\" duration=\"2047000\" />\r\n      <workItem from=\"1719011902238\" duration=\"3090000\" />\r\n      <workItem from=\"1719062199531\" duration=\"594000\" />\r\n      <workItem from=\"1719067057967\" duration=\"599000\" />\r\n      <workItem from=\"1719114753228\" duration=\"103000\" />\r\n      <workItem from=\"1719114877174\" duration=\"21718000\" />\r\n      <workItem from=\"1719226963942\" duration=\"5325000\" />\r\n      <workItem from=\"1719290696151\" duration=\"1062000\" />\r\n      <workItem from=\"1719293204365\" duration=\"3641000\" />\r\n      <workItem from=\"1719356929913\" duration=\"599000\" />\r\n      <workItem from=\"1719358445161\" duration=\"6000\" />\r\n      <workItem from=\"1719476312834\" duration=\"5127000\" />\r\n      <workItem from=\"1719529508524\" duration=\"11000\" />\r\n      <workItem from=\"1719754322914\" duration=\"9876000\" />\r\n      <workItem from=\"1719798234229\" duration=\"71000\" />\r\n      <workItem from=\"1720125305156\" duration=\"3682000\" />\r\n      <workItem from=\"1720129989600\" duration=\"11328000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"My first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717349751001</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717349751001</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"My first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1717352926612</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1717352926612</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"My first commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1718545013176</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1718545013176</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"My first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"My first commit\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.net.SocketException\" package=\"java.net\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit" />
++    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -33,67 +35,67 @@
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.AllLocatorsPractice.executor": "Run",
+-    "Application.ChromeOptionsExample.executor": "Run",
+-    "Application.GoogleSearch.executor": "Run",
+-    "Application.Locators.executor": "Run",
+-    "Application.NavigateToAmazon.executor": "Run",
+-    "Application.SeleniumTest.executor": "Run",
+-    "Application.T000_staleElementException.executor": "Run",
+-    "Application.T000_xpath_getText.executor": "Run",
+-    "Application.T00_checkbox.executor": "Run",
+-    "Application.T00_css_isDisplayed.executor": "Run",
+-    "Application.T0_forget_pasword.executor": "Run",
+-    "Application.T0_radioButton.executor": "Run",
+-    "Application.T1_findElements.executor": "Run",
+-    "Application.T1_locators_getText.executor": "Run",
+-    "Application.T2_getText_getAttribute.executor": "Run",
+-    "Application.T3_getAttribute_css.executor": "Run",
+-    "Application.task1.executor": "Run",
+-    "Application.task2_etsy.executor": "Run",
+-    "Application.task2_mercadoLibre.executor": "Run",
+-    "Maven.AutomationProjectB3 [clean].executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "TestNG.T1_alerts.confirmationAlert.executor": "Run",
+-    "TestNG.T1_alerts.executor": "Run",
+-    "TestNG.T1_alerts.informationAlert.executor": "Run",
+-    "TestNG.T1_alerts.promptAlert.executor": "Run",
+-    "TestNG.T1_testNG_intro (1).executor": "Run",
+-    "TestNG.T1_testNG_intro (2).executor": "Run",
+-    "TestNG.T1_testNG_intro (3).executor": "Run",
+-    "TestNG.T1_testNG_intro.executor": "Run",
+-    "TestNG.T1_testNG_intro.test1.executor": "Run",
+-    "TestNG.T1_testNG_intro.test2.executor": "Run",
+-    "TestNG.T2_iframe.iframeTest.executor": "Run",
+-    "TestNG.T2_iframe.nestedFrame.executor": "Run",
+-    "TestNG.T2_testNG_with_selenium.docuportTitle.executor": "Run",
+-    "TestNG.T2_testNG_with_selenium.executor": "Run",
+-    "TestNG.T2_testNG_with_selenium.googleTitle.executor": "Run",
+-    "TestNG.T3_simple_dropdown.dropDownTest.executor": "Run",
+-    "TestNG.T3_simple_dropdown.executor": "Run",
+-    "TestNG.T4_dropdown_options.colorTest.executor": "Run",
+-    "TestNG.T4_dropdown_options.executor": "Debug",
+-    "TestNG.T5_multi_dropdown.executor": "Run",
+-    "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
+-    "git-widget-placeholder": "day__6",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "C:/Users/sevar/IdeaProjects/AutomationProjectB3",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.AllLocatorsPractice.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ChromeOptionsExample.executor&quot;: &quot;Run&quot;,
++    &quot;Application.GoogleSearch.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Locators.executor&quot;: &quot;Run&quot;,
++    &quot;Application.NavigateToAmazon.executor&quot;: &quot;Run&quot;,
++    &quot;Application.SeleniumTest.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T000_staleElementException.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T00_checkbox.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T00_css_isDisplayed.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T0_forget_pasword.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T0_radioButton.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T1_findElements.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T1_locators_getText.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T2_getText_getAttribute.executor&quot;: &quot;Run&quot;,
++    &quot;Application.T3_getAttribute_css.executor&quot;: &quot;Run&quot;,
++    &quot;Application.task1.executor&quot;: &quot;Run&quot;,
++    &quot;Application.task2_etsy.executor&quot;: &quot;Run&quot;,
++    &quot;Application.task2_mercadoLibre.executor&quot;: &quot;Run&quot;,
++    &quot;Maven.AutomationProjectB3 [clean].executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_alerts.informationAlert.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_alerts.promptAlert.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro (1).executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro (2).executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro (3).executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro.test1.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T1_testNG_intro.test2.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T2_iframe.iframeTest.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T2_iframe.nestedFrame.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T2_testNG_with_selenium.docuportTitle.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T2_testNG_with_selenium.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T2_testNG_with_selenium.googleTitle.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T3_simple_dropdown.dropDownTest.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T3_simple_dropdown.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T4_dropdown_options.colorTest.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Debug&quot;,
++    &quot;TestNG.T5_multi_dropdown.executor&quot;: &quot;Run&quot;,
++    &quot;TestNG.T5_multi_dropdown.multiSelect.executor&quot;: &quot;Run&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;day__6&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/sevar/IdeaProjects/AutomationProjectB3&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
+-  <component name="RunManager" selected="TestNG.T2_iframe.nestedFrame">
++}</component>
++  <component name="RunManager" selected="TestNG.T5_multi_dropdown.multiSelect">
+     <configuration name="T00_checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="io.loop.test.day5.T00_checkbox" />
+       <module name="AutomationProjectB3" />
+@@ -181,10 +183,10 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.T5_multi_dropdown.multiSelect" />
+         <item itemvalue="TestNG.T2_iframe.nestedFrame" />
+         <item itemvalue="TestNG.T2_iframe.iframeTest" />
+         <item itemvalue="TestNG.T1_alerts.confirmationAlert" />
+-        <item itemvalue="TestNG.T5_multi_dropdown.multiSelect" />
+         <item itemvalue="Application.T00_checkbox" />
+       </list>
+     </recent_temporary>
+@@ -226,7 +228,8 @@
+       <workItem from="1719754322914" duration="9876000" />
+       <workItem from="1719798234229" duration="71000" />
+       <workItem from="1720125305156" duration="3682000" />
+-      <workItem from="1720129989600" duration="11328000" />
++      <workItem from="1720129989600" duration="12196000" />
++      <workItem from="1720331694591" duration="48000" />
+     </task>
+     <task id="LOCAL-00001" summary="My first commit">
+       <option name="closed" value="true" />
