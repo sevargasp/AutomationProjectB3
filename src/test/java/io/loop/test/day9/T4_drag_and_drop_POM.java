@@ -51,4 +51,4 @@ public class T4_drag_and_drop_POM {
         String actual=loopPracticeDragDropPage.bigCircle.getText();   //the element was located in Looppracticepage.java
         assertEquals(expected, actual, "Actual does not match the expected");
     }
-}
+}//ok
