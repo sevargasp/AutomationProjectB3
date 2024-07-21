@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit" />
+    <list default="true" id="2ed55f54-188d-4d98-b7e0-742fe4141ee5" name="Changes" comment="My first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDynamicLoading1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDynamicLoading7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day10/T1_dynamic_loading1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day10/T2_explicit_wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDragDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/pages/LoopPracticeDragDropPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day9/T4_drag_and_drop_POM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +37,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar!/org/openqa/selenium/WebDriver.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -75,6 +86,8 @@
     &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.informationAlert.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_alerts.promptAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_dynamic_loading1.dynamic_loading_1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_dynamic_loading1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_google_search.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_google_search.google_search.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_testNG_intro (1).executor&quot;: &quot;Run&quot;,
@@ -87,6 +100,8 @@
     &quot;TestNG.T1_window.selenium4_window.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_window.test_window_handle.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_drag_drop.drad_drop_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_explicit_wait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_explicit_wait.explicit_wait_test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_iframe.iframeTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_iframe.nestedFrame.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_java_faker.java_faker.executor&quot;: &quot;Run&quot;,
@@ -103,6 +118,10 @@
     &quot;TestNG.T3_upload.upload_file.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T3_webTables.test_webTables.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T4_drag_and_drop_POM.drag_small_here_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_drag_and_drop_POM.drop_anywhere_outside_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_drag_and_drop_POM.drop_here_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_drag_and_drop_POM.drop_now_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_drag_and_drop_POM.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T4_dropdown_options.colorTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Debug&quot;,
     &quot;TestNG.T5_multi_dropdown.executor&quot;: &quot;Run&quot;,
@@ -122,12 +141,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sevar\IdeaProjects\AutomationProjectB3\src\test\java\io\loop\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.loop.test.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T4_drag_and_drop_POM.drag_small_here_test">
-    <configuration name="T2_drag_drop.drad_drop_test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.T1_actions_hoverover.google_action_hover">
+    <configuration name="T1_actions_hoverover.google_action_hover" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +158,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T2_drag_drop" />
-      <option name="METHOD_NAME" value="drad_drop_test" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T1_actions_hoverover" />
+      <option name="METHOD_NAME" value="google_action_hover" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,17 +167,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_JSExecutor_scroll.etsy_scroll_test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_dynamic_loading1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="PATTERN" value="io.loop.test.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T3_JSExecutor_scroll" />
-      <option name="METHOD_NAME" value="etsy_scroll_test" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T1_dynamic_loading1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_dynamic_loading1.dynamic_loading_1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T1_dynamic_loading1" />
+      <option name="METHOD_NAME" value="dynamic_loading_1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,53 +202,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_JSExecutor_scroll.etsy_scroll_test (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_explicit_wait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="PATTERN" value="io.loop.test.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T3_JSExecutor_scroll" />
-      <option name="METHOD_NAME" value="etsy_scroll_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T2_explicit_wait" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_JSExecutor_scroll.etsy_scroll_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T2_explicit_wait.explicit_wait_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
+          <option name="PATTERN" value="io.loop.test.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T3_JSExecutor_scroll" />
-      <option name="METHOD_NAME" value="etsy_scroll_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T4_drag_and_drop_POM.drag_small_here_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day9" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day9.T4_drag_and_drop_POM" />
-      <option name="METHOD_NAME" value="drag_small_here_test" />
+      <option name="PACKAGE_NAME" value="io.loop.test.day10" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.day10.T2_explicit_wait" />
+      <option name="METHOD_NAME" value="explicit_wait_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -219,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T4_drag_and_drop_POM.drag_small_here_test" />
-        <item itemvalue="TestNG.T3_JSExecutor_scroll.etsy_scroll_test" />
-        <item itemvalue="TestNG.T3_JSExecutor_scroll.etsy_scroll_test (2)" />
-        <item itemvalue="TestNG.T3_JSExecutor_scroll.etsy_scroll_test (1)" />
-        <item itemvalue="TestNG.T2_drag_drop.drad_drop_test" />
+        <item itemvalue="TestNG.T1_actions_hoverover.google_action_hover" />
+        <item itemvalue="TestNG.T1_dynamic_loading1" />
+        <item itemvalue="TestNG.T1_dynamic_loading1.dynamic_loading_1" />
+        <item itemvalue="TestNG.T2_explicit_wait" />
+        <item itemvalue="TestNG.T2_explicit_wait.explicit_wait_test" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +298,8 @@
       <workItem from="1721220960439" duration="4942000" />
       <workItem from="1721344416201" duration="1132000" />
       <workItem from="1721430203730" duration="309000" />
+      <workItem from="1721527480759" duration="6063000" />
+      <workItem from="1721540207470" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
