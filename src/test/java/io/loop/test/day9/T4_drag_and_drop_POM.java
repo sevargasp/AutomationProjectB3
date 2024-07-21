@@ -3,6 +3,8 @@ package io.loop.test.day9;
 import io.loop.pages.LoopPracticeDragDropPage;
 import io.loop.test.utilities.Driver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -45,10 +47,54 @@ public class T4_drag_and_drop_POM {
         actions = new Actions(Driver.getDriver());
 
     }
+
     @Test
-    public void drag_small_here_test(){
+    public void drag_small_here_test() {
         String expected = "Drag the small circle here.";
-        String actual=loopPracticeDragDropPage.bigCircle.getText();   //the element was located in Looppracticepage.java
+        String actual = loopPracticeDragDropPage.bigCircle.getText();   //the element was located in Looppracticepage.java
         assertEquals(expected, actual, "Actual does not match the expected");
     }
-}//ok
+
+    @Test
+    public void drop_here_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(100, 100)
+                .pause(3000)
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Drop here.");
+
+    }
+
+    @Test
+    public void drop_now_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(0, -200)
+                .pause(3000)
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Now drop...");
+
+
+    }
+
+    //1. Open a chrome browser
+//2. Go to: https://loopcamp.vercel.app/drag-and-drop-circles.html
+//3. Click and hold small circle
+//4. Dropped anywhere outside of big circle
+//5. validate “Try again!” text appears on big circle
+    @Test
+    public void drop_anywhere_outside_test() {
+        actions.moveToElement(loopPracticeDragDropPage.smallCircle)
+                .clickAndHold()
+                .moveByOffset(100, 250)
+                .release()
+                .perform();
+        assertEquals(loopPracticeDragDropPage.bigCircle.getText(), "Try again!");
+
+    }
+    @AfterMethod
+    public void tearDown_Method(){
+        Driver.closeDriver();
+    }
+}
